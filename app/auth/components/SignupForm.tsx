@@ -17,7 +17,7 @@ export const SignupForm = (props: SignupFormProps) => {
       <h1>Create an Account</h1>
 
       <Form
-        submitText="Create Account"
+        submit="Create Account"
         schema={SignupInput}
         initialValues={{ email: "", password: "" }}
         onSubmit={async (values) => {
